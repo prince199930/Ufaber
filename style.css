@@ -176,10 +176,10 @@
 #Demo-book{
     border-radius: 14px;
     background-color: #fff;
-    height: 439px;
-    margin-top: 92px;
+    height: 456px;
+    margin-top: 76px;
     box-shadow: 0 4px 4px #ccc;
-    width: 381px;
+    width: 401px;
 }
 
 #top{
@@ -362,7 +362,7 @@
 }
  
 #social{
-    margin-top: -44px; 
+    margin-top: -163px; 
     display: flex; 
     justify-content: center; 
     text-align: center; 
@@ -416,24 +416,24 @@
 }
 
 #mobileno{
-    width: 328px;
-    margin-left: 13px;
+    width: 341px;
+    margin-left: 4px;
     height: 19px;
     padding: 7px;
     margin-bottom: 16px;
 }
 
 #FN{
-    width: 328px;
-    margin-left: 13px;
+    width: 341px;
+    margin-left: 4px;
     height: 19px;
     padding: 7px;
     margin-bottom: 16px;
 }
 
 #EID{
-    width: 328px;
-    margin-left: 13px;
+    width: 341px;
+    margin-left: 4px;
     height: 19px;
     padding: 7px;
     margin-bottom: 16px;
@@ -446,15 +446,16 @@
 
 #drop{
     text-align: left;
-    margin-left: 13px;
+    margin-left: 24px;
 }
 
 #dropdown{
-    width: 345px;
+    width: 356px;
     height: 37px;
     padding: 7px;
     margin-bottom: 16px;
     margin-top: 6px;
+    margin-left: 24px;
 }
 
 #option{
@@ -463,8 +464,8 @@
 
 #submit{
     border-radius: 6px;
-    width: 321px;
-    margin-left: 24px;
+    width: 357px;
+    margin-left: 4px;
     height: 42px;
     padding: 7px;
     margin-bottom: 16px;
@@ -476,7 +477,7 @@
 #desc{
     font-size: 13px;
     color: #ccc;
-    margin-left: 19px;
+    margin-left: 39px;
     width: 328px;
 }
 
@@ -489,6 +490,18 @@
 }
 
 #new-btn{
+    display: none;
+}
+
+#emailvalid{
+    display: none;
+}
+
+#firstname{
+    display: none;
+}
+
+#mobilenumber{
     display: none;
 }
 
@@ -555,35 +568,35 @@
 
     #mobileno {
         width: 919px;
-        margin-left: 13px;
         height: 56px;
         padding: 13px;
         margin-bottom: 16px;
-        margin-left: 67px;
+        margin-left: 83px;
+        margin-right: 123px;
         font-size: 19px;
     }
     #FN {
         width: 919px;
-        margin-left: 13px;
         height: 56px;
         padding: 13px;
         margin-bottom: 16px;
-        margin-left: 67px;
+        margin-left: 83px;
+        margin-right: 123px;
         font-size: 19px;
     }
     #EID {
         width: 919px;
-        margin-left: 13px;
         height: 56px;
         padding: 13px;
         margin-bottom: 16px;
-        margin-left: 67px;
+        margin-left: 83px;
+        margin-right: 123px;
         font-size: 19px;
     }
 
     #drop {
         text-align: left;
-        margin-left: 76px;
+        margin-left: 94px;
         font-size: 20px;
     }
 
@@ -593,20 +606,20 @@
     }
 
     #dropdown{
-        width: 919px;
+        width: 953px;
         margin-left: 5px;
         height: 66px;
         padding: 13px;
         margin-bottom: 16px;
-        margin-left: -5px;
+        margin-left: 84px;
         font-size: 19px;
         margin-top: 10px;
     }
 
     #submit {
         border-radius: 6px;
-        width: 919px;
-        margin-left: 68px;
+        width: 966px;
+        margin-left: -44px;
         height: 69px;
         padding: 7px;
         margin-bottom: 16px;

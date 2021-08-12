@@ -29,10 +29,29 @@
         <h2 id="Book_Class"></h2>
         <p id="Limited_seat"></p>
       </div>
-      <div id="form_div">
+      <div id="form_div" style="background-color: #ffff;">
+        <form action="#" id="my-form" class="is-invalid">
+          <div class="form-grp">
         <input id="mobileno" type="text" placeholder="Enter Mobile no"/>
-        <input id="FN"  type="text" placeholder="Enter Name"/>
-        <input id="EID" type="email" placeholder="Enter E-Mail Id"/>
+        <small id="mobilenumber" style="color: rgb(209, 82, 82);" id="mobilevalid" class="form-text text-muted invalid-feedback">
+          Please enter a valid mobile number.
+        </small>
+      </div>
+      <div class="form-grp">
+        <input id="FN" class="form-control"  type="text" placeholder="Enter Name"/>
+        <!-- <div class="invalid-feedback">This is wrong</div> -->
+        <small id="firstname" style="color: rgb(209, 82, 82);" id="namevalid" class="form-text text-muted invalid-feedback">
+          Please enter a valid name.
+        </small>
+        <!-- <span id="first"></span> -->
+      </div>
+      <div class="form-grp">
+        <input id="EID" type="email" class="is-invalid" placeholder="Enter E-Mail Id"/>
+        <small class="invalid-feedback" style="color: rgb(209, 82, 82);" id="emailvalid">
+          Please enter a valid e-mail id.
+        </small>
+      </div>
+      
         <div id="drop_div">
           <label id="drop"></label>
             <select id="dropdown">
@@ -45,6 +64,7 @@
         </div>
         <button id="submit"></button>
         <p id="desc"></p>
+      </form>
       </div>
     </div>
     <div id="form-img2">
@@ -189,7 +209,11 @@
   </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js">
+    // const validation = ()=>{
+    //   alert('js')
+    // }
+  </script>
 </body>
 
 </html>

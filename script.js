@@ -1,16 +1,3 @@
-// const validation=()=>{
-//     if(mobileno<1 || mobileno>10 ||mobileno<10){
-//         alert("invalid input")
-//     }
-//     else if(phonePatt.test(newUserData.phone))
-
-// }
-
-
-// const emailPatt = new RegExp(/^([a-zA-Z0-9_\-\.\+]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/);
-//     const phonePatt = new RegExp(/^\d+$/);
-//     phonePatt.test(newUserData.phone)
-
 const validation = ()=>{
     var user = document.getElementById("FN").value()
     if(user=""){

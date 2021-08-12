@@ -6,7 +6,7 @@
     height: 571px;
     margin-top: -4px;
     margin-left: -4px;
-    width: 1211px;
+    width: 1515px;
 }
 
 #upsc-pathsahala{
@@ -220,7 +220,7 @@
     display: flex; 
     background-color: #ffece5;  
     margin-left: -4px; 
-    width: 1211px;
+    width: 1515px;
 }
 
 #book-img{
@@ -277,17 +277,17 @@
     display: flex;
     width: 1140px;
     height: 14vh;
-    margin-left: 52px;
+    margin-left: 308px;
     column-gap: 27px;
 }
 
 #personal{
-    border: 2px solid; 
-    width: 185px; 
-    border-radius: 6px; 
-    padding-top: 9px; 
-    height: 34px; 
-    margin-left: 341px; 
+    border: 2px solid;
+    width: 185px;
+    border-radius: 6px;
+    padding-top: 9px;
+    height: 34px;
+    margin-left: 252px;
     margin-bottom: 12px;
 }
 
@@ -305,7 +305,7 @@
     width: 1140px;
     height: 14vh;
     column-gap: 27px;
-    margin-left: -1085px;
+    margin-left: -1230px;
     margin-top: 54px;
 }
 
@@ -314,7 +314,7 @@
     width: 1140px;
     height: 14vh;
     column-gap: 27px;
-    margin-left: -969px;
+    margin-left: -1027px;
     margin-top: 114px;
 }
 
@@ -362,7 +362,7 @@
 }
  
 #social{
-    margin-top: 0px; 
+    margin-top: -44px; 
     display: flex; 
     justify-content: center; 
     text-align: center; 
